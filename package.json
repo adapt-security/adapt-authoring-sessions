@@ -1,0 +1,15 @@
+{
+  "name": "adapt-authoring-sessions",
+  "version": "0.0.1",
+  "description": "Module which stores users sessions in the MongoDB",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-sessions",
+  "main": "index.js",
+  "peerDependencies": {
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
+  },
+  "dependencies": {
+    "connect-mongo": "3.2.0",
+    "express-session": "1.17.0"
+  }
+}
