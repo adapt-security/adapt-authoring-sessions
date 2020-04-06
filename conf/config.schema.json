@@ -11,7 +11,7 @@
       "description": "How long a session should remain valid for in milliseconds",
       "type": "number",
       "default": 604800000
-    }
+    },
     "sameSite": {
       "description": "Asserts that a cookie must not be sent with cross-origin requests",
       "type": "string",
