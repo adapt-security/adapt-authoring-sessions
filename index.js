@@ -1,2 +1,1 @@
-const sessionsModule = require('./lib/sessionsModule');
-module.exports = sessionsModule;
+module.exports = require('./lib/SessionsModule');
