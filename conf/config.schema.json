@@ -15,7 +15,7 @@
     "sameSite": {
       "description": "Asserts that a cookie must not be sent with cross-origin requests",
       "type": "string",
-      "default": "none"
+      "default": "strict"
     },
     "secret": {
       "description": "A secret used to encode/decode user sessions",
