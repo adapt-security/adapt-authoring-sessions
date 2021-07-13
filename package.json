@@ -11,7 +11,7 @@
     "adapt-authoring-core": "adapt-security/adapt-authoring-core"
   },
   "dependencies": {
-    "connect-mongo": "3.2.0",
-    "express-session": "1.17.0"
+    "connect-mongo": "^4.4.1",
+    "express-session": "^1.17.2"
   }
 }
