@@ -4,14 +4,14 @@
   "description": "Module which stores users sessions in the MongoDB",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-sessions",
   "license": "GPL-3.0",
-  "repository": "adaptlearning/adapt-authoring-sessions",
   "main": "index.js",
-  "peerDependencies": {
-    "adapt-authoring-auth": "adapt-security/adapt-authoring-auth",
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
-  },
+  "repository": "adaptlearning/adapt-authoring-sessions",
   "dependencies": {
     "connect-mongo": "^4.4.1",
     "express-session": "^1.17.2"
+  },
+  "peerDependencies": {
+    "adapt-authoring-auth": "adapt-security/adapt-authoring-auth",
+    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
   }
 }
