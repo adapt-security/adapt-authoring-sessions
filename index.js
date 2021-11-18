@@ -1,1 +1,1 @@
-module.exports = require('./lib/SessionsModule');
+export { default } from './lib/SessionsModule.js';

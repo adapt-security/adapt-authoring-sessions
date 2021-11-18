@@ -4,6 +4,7 @@
   "description": "Module which stores users sessions in the MongoDB",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-sessions",
   "license": "GPL-3.0",
+  "type": "module",
   "main": "index.js",
   "repository": "adaptlearning/adapt-authoring-sessions",
   "dependencies": {
