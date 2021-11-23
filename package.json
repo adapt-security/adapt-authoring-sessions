@@ -12,7 +12,7 @@
     "express-session": "^1.17.2"
   },
   "peerDependencies": {
-    "adapt-authoring-auth": "adapt-security/adapt-authoring-auth",
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
   }
 }
