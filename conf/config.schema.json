@@ -20,7 +20,10 @@
     "secret": {
       "description": "A secret used to encode/decode user sessions",
       "type": "string",
-      "minLength": 10
+      "minLength": 10,
+      "_adapt": { 
+        "isSecret": true 
+      }
     },
     "secure": {
       "description": "If true, cookie is only sent to the server when a request is made with the https scheme",
