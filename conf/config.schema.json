@@ -8,9 +8,10 @@
       "default": "usersessions"
     },
     "lifespan": {
-      "description": "How long a session should remain valid for in milliseconds",
-      "type": "number",
-      "default": 604800000
+      "description": "The amount of time a session should remain valid",
+      "type": "string",
+      "isTimeMs": true,
+      "default": "7d"
     },
     "sameSite": {
       "description": "Asserts that a cookie must not be sent with cross-origin requests",
