@@ -11,7 +11,12 @@
       "description": "The amount of time a session should remain valid",
       "type": "string",
       "isTimeMs": true,
-      "default": "7d"
+      "default": "1h"
+    },
+    "rolling": {
+      "description": "Determines whether sessions should only expire after a period of inactivity (max age determined by the lifespan option)",
+      "type": "boolean",
+      "default": true
     },
     "sameSite": {
       "description": "Asserts that a cookie must not be sent with cross-origin requests",
