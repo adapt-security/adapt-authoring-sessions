@@ -60,5 +60,8 @@
         }
       ]
     ]
+  },
+  "scripts": {
+    "test": "node --test 'tests/**/*.spec.js'"
   }
 }
