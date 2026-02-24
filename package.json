@@ -1,6 +1,6 @@
 {
   "name": "adapt-authoring-sessions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Module which stores users sessions in the MongoDB",
   "homepage": "https://github.com/adapt-security/adapt-authoring-sessions",
   "license": "GPL-3.0",
